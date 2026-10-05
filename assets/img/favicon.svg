@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Enerlysse">
+  <defs>
+    <linearGradient id="lg" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#0E3B6E"/><stop offset=".55" stop-color="#1D6FB8"/><stop offset="1" stop-color="#5DB33A"/>
+    </linearGradient>
+  </defs>
+  <path d="M10 46C10 24 28 8 56 6c-2 26-16 46-38 48 6-8 14-18 22-30C30 32 20 40 10 46Z" fill="url(#lg)"/>
+  <path d="M22 54c-6 0-11-3-13-8 9-4 17-10 26-20-6 10-9 19-13 28Z" fill="#5DB33A"/>
+  <g fill="#0E3B6E"><rect x="26" y="34" width="5" height="5"/><rect x="32" y="34" width="5" height="5"/><rect x="26" y="40" width="5" height="5"/><rect x="32" y="40" width="5" height="5"/></g>
+</svg>

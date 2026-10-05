@@ -1,0 +1,4 @@
+Déposez ici la vidéo de présentation Enerlysse sous le nom :
+  enerlysse-presentation.mp4
+(MP4 / H.264, 1920x1080 conseillé, moins de 30 Mo)
+Tant que le fichier est absent, le site affiche un visuel de remplacement.
