@@ -23,14 +23,14 @@
     });
     // Survol sur ordinateur
     item.addEventListener("mouseenter", function () {
-      if (window.matchMedia("(min-width: 1021px)").matches) { item.classList.add("open"); btn.setAttribute("aria-expanded", "true"); }
+      if (window.matchMedia("(min-width: 1181px)").matches) { item.classList.add("open"); btn.setAttribute("aria-expanded", "true"); }
     });
     item.addEventListener("mouseleave", function () {
-      if (window.matchMedia("(min-width: 1021px)").matches) { item.classList.remove("open"); btn.setAttribute("aria-expanded", "false"); }
+      if (window.matchMedia("(min-width: 1181px)").matches) { item.classList.remove("open"); btn.setAttribute("aria-expanded", "false"); }
     });
   });
   document.addEventListener("click", function () {
-    if (window.matchMedia("(min-width: 1021px)").matches) {
+    if (window.matchMedia("(min-width: 1181px)").matches) {
       document.querySelectorAll(".has-sub.open").forEach(function (el) {
         el.classList.remove("open");
         el.querySelector("button").setAttribute("aria-expanded", "false");

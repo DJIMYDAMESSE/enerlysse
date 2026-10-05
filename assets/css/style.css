@@ -125,7 +125,7 @@ p { margin: 0 0 1em; }
 .nav-toggle { display: none; background: none; border: 0; padding: .5rem; cursor: pointer; color: var(--navy); }
 .nav-toggle svg { width: 28px; height: 28px; }
 
-@media (max-width: 1020px) {
+@media (max-width: 1180px) {
   .nav-toggle { display: block; }
   .header-phone { display: none; }
   .main-nav {
@@ -164,7 +164,7 @@ p { margin: 0 0 1em; }
 
 /* ---------- Bandeau expertises ---------- */
 .expertise-strip { position: relative; z-index: 4; margin-top: -2.5rem; }
-.expertise-strip ul { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(4, 1fr); background: #fff; border-radius: var(--radius); box-shadow: 0 24px 50px -28px rgba(10,42,80,.45); border: 1px solid var(--line); overflow: hidden; }
+.expertise-strip ul { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(5, 1fr); gap: 1px; background: var(--line); border-radius: var(--radius); box-shadow: 0 24px 50px -28px rgba(10,42,80,.45); border: 1px solid var(--line); overflow: hidden; }
 .expertise-strip li + li { border-left: 1px solid var(--line); }
 .expertise-strip a { display: flex; gap: .9rem; align-items: center; padding: 1.35rem 1.25rem; text-decoration: none; color: var(--ink); height: 100%; transition: background-color .2s; }
 .expertise-strip a:hover { background: var(--green-soft); color: var(--ink); }
@@ -385,3 +385,68 @@ p { margin: 0 0 1em; }
 .center { text-align: center; }
 .visually-hidden { position: absolute !important; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
 @media (max-width: 520px) { .brand-tag { display: none; } }
+
+/* ---------- Logos partenaires RGE ---------- */
+.header-rge { display: flex; align-items: center; gap: .45rem; margin-right: auto; padding-left: 1rem; border-left: 1px solid var(--line); }
+.header-rge-label { font-size: .7rem; line-height: 1.15; font-weight: 600; color: var(--muted); }
+.header-rge img { height: 40px; width: auto; border-radius: 4px; }
+.header-rge a { display: block; }
+@media (max-width: 1240px) { .header-rge-label { display: none; } }
+@media (max-width: 1150px) and (min-width: 1181px) { .main-nav a, .main-nav button { padding: .6rem .6rem; } }
+@media (max-width: 1180px) { .header-rge { padding-left: .6rem; } }
+@media (max-width: 520px) { .header-rge img { height: 32px; } .header-rge { gap: .3rem; padding-left: .4rem; } .brand-name { font-size: 1.3rem; } .brand img { width: 36px; height: 36px; } }
+@media (max-width: 380px) { .header-rge img { height: 26px; } }
+
+.cert-logos { display: flex; flex-direction: column; gap: .5rem; flex: none; }
+.cert-logos img { width: 118px; height: auto; border-radius: 6px; }
+
+.footer-rge-note { margin: 1rem 0 .3rem; font-size: .85rem; }
+.footer-certs img { height: 50px; width: auto; border-radius: 4px; background: #fff; }
+
+.partner-card { border: 2px solid var(--green); border-radius: var(--radius); padding: 2rem; background: #fff; }
+.partner-card > img { width: 160px; height: auto; margin-bottom: 1.2rem; }
+.partner-kicker { font-size: .9rem; font-weight: 600; color: var(--green-dark); margin: 0 0 .2rem; }
+.partner-card h3 { font-size: 1.5rem; margin-bottom: .4rem; }
+.partner-meta { color: var(--muted); font-size: .95rem; }
+.partner-num { font-size: 1.1rem; color: var(--navy); }
+.qual { background: var(--sky); border-radius: 10px; padding: 1rem 1.2rem; margin-bottom: 1.2rem; }
+.qual h4 { margin: 0 0 .3rem; color: var(--navy); font-size: 1.05rem; }
+.qual p { margin: 0 0 .3rem; font-size: .95rem; color: var(--muted); }
+.qual .qual-dates { margin: 0; color: var(--ink); }
+.header-rge, .header-rge a { flex: none; }
+.header-rge img { max-width: none; }
+.brand { flex: none; }
+@media (max-width: 1320px) { .site-header .brand-tag { display: none; } }
+@media (max-width: 99999px) { .site-header .brand-tag { display: none; } }
+@media (max-width: 1480px) { .header-phone { display: none; } }
+html, body { overflow-x: clip; }
+@media (max-width: 520px) { .header-inner { gap: .5rem; } .nav-toggle { padding: .3rem; } }
+
+/* Bandeau 5 expertises : séparateurs via gap */
+.expertise-strip li { background: #fff; }
+.expertise-strip li + li, .expertise-strip li:nth-child(3), .expertise-strip li:nth-child(n+3) { border: 0; }
+.expertise-strip a { flex-direction: column; align-items: flex-start; text-align: left; }
+@media (max-width: 1100px) { .expertise-strip ul { grid-template-columns: repeat(3, 1fr); } .expertise-strip li:last-child { grid-column: span 2; } }
+@media (max-width: 700px) { .expertise-strip ul { grid-template-columns: 1fr 1fr; } .expertise-strip li:last-child { grid-column: span 2; } .expertise-strip a { flex-direction: row; align-items: center; } }
+@media (max-width: 520px) { .expertise-strip ul { grid-template-columns: 1fr; } .expertise-strip li:last-child { grid-column: auto; } }
+
+/* Flux d'énergie (photovoltaïque) */
+.flow { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(4, 1fr); gap: 1.5rem; counter-reset: flow; }
+.flow li { position: relative; background: #fff; border-radius: var(--radius); padding: 1.5rem; counter-increment: flow; }
+.flow li::after { content: ""; position: absolute; right: -1.15rem; top: 2.6rem; width: .8rem; height: .8rem; border-top: 3px solid var(--green); border-right: 3px solid var(--green); transform: rotate(45deg); }
+.flow li:last-child::after { display: none; }
+.flow h3 { margin: 1rem 0 .3rem; font-size: 1.1rem; }
+.flow h3::before { content: counter(flow) ". "; color: var(--green-dark); }
+.flow p { margin: 0; color: var(--muted); font-size: .96rem; }
+@media (max-width: 900px) { .flow { grid-template-columns: 1fr 1fr; } .flow li::after { display: none; } }
+@media (max-width: 560px) { .flow { grid-template-columns: 1fr; } }
+.section-navy .aid a { color: var(--blue); }
+.expertise-strip strong { line-height: 1.3; margin-bottom: .2rem; }
+
+/* Logos RGE agrandis */
+:root { --header-h: 88px; }
+.header-rge img { height: 56px; }
+.header-rge-label { font-size: .78rem; }
+@media (max-width: 1180px) { .header-rge img { height: 48px; } }
+@media (max-width: 520px) { :root { --header-h: 72px; } .header-rge img { height: 38px; } .header-rge-label { display: none; } }
+@media (max-width: 380px) { .header-rge img { height: 32px; } .brand-name { font-size: 1.15rem; } }
