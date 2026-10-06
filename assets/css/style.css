@@ -464,3 +464,8 @@ html, body { overflow-x: clip; }
 .partner-install { border-top: 1px solid var(--line); margin-top: 1.2rem; padding-top: 1.2rem; }
 .partner-name { font-weight: 700; color: var(--ink); margin: 0 0 .2rem; }
 .partner-install .partner-num { margin-bottom: 1rem; }
+.partner-install { display: flex; align-items: center; gap: 1.2rem; flex-wrap: wrap; }
+.partner-install img { width: 160px; height: auto; border-radius: 6px; flex: none; }
+.partner-install > div { flex: 1 1 200px; }
+.partner-install .partner-num { margin-bottom: 0; }
+.partner-card .qual { margin-top: 1.2rem; }

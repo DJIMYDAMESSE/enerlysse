@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="Gymnase équipé de déstratificateurs">
+  <defs><linearGradient id="w" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F1F4F7"/><stop offset="1" stop-color="#DCE4EC"/></linearGradient></defs>
+  <rect width="400" height="300" fill="url(#w)"/>
+  <path d="M0 40C120 10 280 10 400 40V0H0z" fill="#C9D3DD"/>
+  <g fill="none" stroke="#B5C1CD" stroke-width="3"><path d="M0 40C120 10 280 10 400 40"/><path d="M50 30v14M120 20v20M200 16v22M280 20v20M350 30v14"/></g>
+  <g fill="#FFFFFF" stroke="#C9D3DD" stroke-width="2"><rect x="30" y="70" width="60" height="40"/><rect x="170" y="70" width="60" height="40"/><rect x="310" y="70" width="60" height="40"/></g>
+  <g stroke="#7D8C9B" stroke-width="3"><path d="M110 24v30M290 24v30"/></g>
+  <g fill="#0E3B6E"><circle cx="110" cy="58" r="8"/><circle cx="290" cy="58" r="8"/></g>
+  <g fill="#5E7894"><rect x="62" y="55" width="48" height="6" rx="3"/><rect x="110" y="55" width="48" height="6" rx="3"/><rect x="242" y="55" width="48" height="6" rx="3"/><rect x="290" y="55" width="48" height="6" rx="3"/></g>
+  <g fill="none" stroke="#D2483E" stroke-width="3" stroke-linecap="round" opacity=".7"><path d="M110 72v40l-8-8M110 112l8-8"/><path d="M290 72v40l-8-8M290 112l8-8"/></g>
+  <path d="M0 210h400v90H0z" fill="#E5B979"/>
+  <g fill="none" stroke="#FFFFFF" stroke-width="3"><path d="M200 210v90"/><ellipse cx="200" cy="255" rx="40" ry="18"/><path d="M0 230c40 0 70 10 70 25s-30 25-70 25M400 230c-40 0-70 10-70 25s30 25 70 25"/></g>
+  <g fill="none" stroke="#7D8C9B" stroke-width="4"><path d="M24 210v-70h22M376 210v-70h-22"/></g>
+  <circle cx="40" cy="150" r="8" fill="none" stroke="#D2483E" stroke-width="3"/><circle cx="360" cy="150" r="8" fill="none" stroke="#D2483E" stroke-width="3"/>
+</svg>

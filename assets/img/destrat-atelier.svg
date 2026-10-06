@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="Atelier industriel équipé de déstratificateurs">
+  <defs><linearGradient id="w" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#E9EEF3"/><stop offset="1" stop-color="#D3DCE5"/></linearGradient></defs>
+  <rect width="400" height="300" fill="url(#w)"/>
+  <path d="M0 70 200 18 400 70" fill="none" stroke="#9AA8B6" stroke-width="6"/>
+  <g fill="none" stroke="#B5C1CD" stroke-width="3"><path d="M40 60 200 26 360 60"/><path d="M60 64v-6M120 50v-12M200 30v-6M280 50v-12M340 64v-6"/><path d="M60 60 120 40 200 26 280 40 340 60"/></g>
+  <g stroke="#7D8C9B" stroke-width="3"><path d="M130 46v26M270 46v26"/></g>
+  <g fill="#0E3B6E"><circle cx="130" cy="76" r="9"/><circle cx="270" cy="76" r="9"/></g>
+  <g fill="#5E7894"><rect x="76" y="73" width="54" height="6" rx="3"/><rect x="130" y="73" width="54" height="6" rx="3"/><rect x="216" y="73" width="54" height="6" rx="3"/><rect x="270" y="73" width="54" height="6" rx="3"/></g>
+  <g fill="none" stroke="#D2483E" stroke-width="3" stroke-linecap="round" opacity=".7"><path d="M130 92v40l-8-8M130 132l8-8"/><path d="M270 92v40l-8-8M270 132l8-8"/></g>
+  <rect x="0" y="232" width="400" height="68" fill="#BAC6D2"/>
+  <rect x="30" y="182" width="90" height="50" rx="4" fill="#0E3B6E"/><rect x="40" y="170" width="40" height="14" fill="#5E7894"/>
+  <rect x="150" y="196" width="110" height="36" rx="4" fill="#5DB33A"/><rect x="160" y="188" width="30" height="10" fill="#3F8A22"/>
+  <rect x="290" y="160" width="80" height="72" fill="#9AA8B6"/><g stroke="#7D8C9B" stroke-width="3"><path d="M290 184h80M290 208h80M330 160v72"/></g>
+</svg>
