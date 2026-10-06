@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="Climatisation cassette encastrée au plafond">
+  <defs>
+    <linearGradient id="room" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F5F7FA"/><stop offset="1" stop-color="#E4EBF2"/></linearGradient>
+    <linearGradient id="cas" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#E7ECF1"/></linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#room)"/>
+  <path d="M0 0h400v120L330 150H70L0 120z" fill="#FBFCFD"/>
+  <path d="M70 150h260" stroke="#D5DEE7" stroke-width="2"/>
+  <g stroke="#E5EBF1" stroke-width="2"><path d="M40 40l40 60M140 20l20 90M260 20l-20 90M360 40l-40 60"/></g>
+  <path d="M120 60h160l40 52H80z" fill="#C9D3DD"/>
+  <path d="M128 64h144l34 44H94z" fill="url(#cas)"/>
+  <path d="M150 74h100l18 24H132z" fill="#DDE4EB"/>
+  <path d="M164 80h72l10 12H154z" fill="#F7F9FB"/>
+  <g stroke="#AEBAC6" stroke-width="3" stroke-linecap="round">
+    <path d="M138 70h124"/><path d="M106 104h188"/><path d="M118 72l-14 32"/><path d="M282 72l14 32"/>
+  </g>
+  <g fill="none" stroke="#1D6FB8" stroke-width="3" stroke-linecap="round" opacity=".55">
+    <path d="M200 120c0 30 0 40 0 70"/><path d="M90 118c-20 25-30 40-40 70"/><path d="M310 118c20 25 30 40 40 70"/>
+    <path d="M140 122c-8 28-12 44-14 70"/><path d="M260 122c8 28 12 44 14 70"/>
+  </g>
+  <rect x="0" y="255" width="400" height="45" fill="#D4DEE8"/>
+  <rect x="150" y="220" width="100" height="36" rx="6" fill="#0E3B6E" opacity=".85"/>
+  <rect x="160" y="210" width="80" height="12" rx="4" fill="#5DB33A" opacity=".85"/>
+</svg>

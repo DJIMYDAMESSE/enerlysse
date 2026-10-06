@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="Climatisation gainable dissimulée dans le faux plafond">
+  <defs>
+    <linearGradient id="room" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F7F9FB"/><stop offset="1" stop-color="#E4EBF2"/></linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#room)"/>
+  <rect x="0" y="0" width="400" height="96" fill="#DCE5EE"/>
+  <rect x="24" y="22" width="110" height="52" rx="6" fill="#FFFFFF" stroke="#AEBAC6" stroke-width="3"/>
+  <g stroke="#AEBAC6" stroke-width="3" stroke-linecap="round"><path d="M40 36h40M40 48h40M40 60h40"/></g>
+  <circle cx="108" cy="48" r="14" fill="none" stroke="#1D6FB8" stroke-width="3"/>
+  <path d="M134 40h130a16 16 0 0 1 16 16v40" fill="none" stroke="#B8C5D2" stroke-width="18" stroke-linejoin="round"/>
+  <path d="M134 40h230v56" fill="none" stroke="#C9D3DD" stroke-width="12" opacity=".7"/>
+  <rect x="0" y="96" width="400" height="10" fill="#FFFFFF"/>
+  <path d="M0 106h400" stroke="#C9D3DD" stroke-width="2"/>
+  <g fill="#8E9CAB"><rect x="250" y="100" width="64" height="6" rx="2"/><rect x="336" y="100" width="54" height="6" rx="2"/></g>
+  <g fill="none" stroke="#1D6FB8" stroke-width="3" stroke-linecap="round" opacity=".5">
+    <path d="M262 112c-4 20-10 34-20 52"/><path d="M282 112c0 22 0 36 0 56"/><path d="M302 112c4 20 10 34 20 52"/>
+    <path d="M350 112c-2 20-6 34-12 52"/><path d="M372 112c4 18 8 32 16 48"/>
+  </g>
+  <rect x="0" y="255" width="400" height="45" fill="#D4DEE8"/>
+  <rect x="40" y="196" width="150" height="60" rx="10" fill="#0E3B6E" opacity=".85"/>
+  <rect x="52" y="184" width="40" height="22" rx="8" fill="#5DB33A" opacity=".9"/>
+  <rect x="138" y="184" width="40" height="22" rx="8" fill="#5DB33A" opacity=".9"/>
+</svg>

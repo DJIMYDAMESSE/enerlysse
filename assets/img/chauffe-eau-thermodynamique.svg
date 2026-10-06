@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="Chauffe-eau thermodynamique">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#EEF5FB"/><stop offset="1" stop-color="#DCE8F3"/></linearGradient>
+    <linearGradient id="tank" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#D5DCE4"/><stop offset=".35" stop-color="#FFFFFF"/><stop offset=".7" stop-color="#F3F6F9"/><stop offset="1" stop-color="#C9D2DC"/></linearGradient>
+    <linearGradient id="top" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#9AA8B6"/><stop offset=".4" stop-color="#D9E0E7"/><stop offset="1" stop-color="#8E9CAB"/></linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#bg)"/>
+  <rect x="0" y="250" width="400" height="50" fill="#C7D3DF"/>
+  <rect x="40" y="40" width="70" height="180" rx="6" fill="#E3EAF1"/>
+  <path d="M75 60v140M60 60h30" stroke="#B8C5D2" stroke-width="4" stroke-linecap="round"/>
+  <ellipse cx="200" cy="258" rx="70" ry="9" fill="#AEBBC8"/>
+  <rect x="140" y="92" width="120" height="166" rx="22" fill="url(#tank)"/>
+  <path d="M140 46a22 22 0 0 1 22-22h76a22 22 0 0 1 22 22v52H140z" fill="url(#top)"/>
+  <g stroke="#6F7E8D" stroke-width="3" stroke-linecap="round">
+    <path d="M160 46h80M160 58h80M160 70h80M160 82h80"/>
+  </g>
+  <rect x="140" y="96" width="120" height="6" fill="#7D8C9B"/>
+  <rect x="176" y="128" width="48" height="30" rx="5" fill="#0E3B6E"/>
+  <rect x="183" y="135" width="22" height="9" rx="2" fill="#5DB33A"/>
+  <circle cx="214" cy="140" r="3" fill="#A6D86B"/>
+  <path d="M182 152h30" stroke="#5E86B3" stroke-width="2" stroke-linecap="round"/>
+  <path d="M260 210h40v40M260 230h24v20" fill="none" stroke="#9AA8B6" stroke-width="7" stroke-linecap="round"/>
+  <path d="M296 205l8 0" stroke="#D2483E" stroke-width="7" stroke-linecap="round"/>
+  <path d="M280 225l8 0" stroke="#1D6FB8" stroke-width="7" stroke-linecap="round"/>
+  <g fill="none" stroke="#5DB33A" stroke-width="3" stroke-linecap="round" opacity=".8">
+    <path d="M300 60c8 8-8 16 0 24s-8 16 0 24"/><path d="M322 60c8 8-8 16 0 24s-8 16 0 24"/>
+  </g>
+</svg>
