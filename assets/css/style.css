@@ -469,3 +469,7 @@ html, body { overflow-x: clip; }
 .partner-install > div { flex: 1 1 200px; }
 .partner-install .partner-num { margin-bottom: 0; }
 .partner-card .qual { margin-top: 1.2rem; }
+.types.four { grid-template-columns: repeat(4, 1fr); }
+@media (max-width: 1100px) { .types.four { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 600px) { .types.four { grid-template-columns: 1fr; } }
+.section-sky .aid { background: #fff; }

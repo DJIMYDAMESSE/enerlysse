@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="Batterie de stockage murale">
+  <rect width="400" height="300" fill="#EEF2F6"/><rect y="250" width="400" height="50" fill="#D3DCE5"/>
+  <rect x="130" y="30" width="140" height="224" rx="16" fill="#FFFFFF" stroke="#C9D3DD" stroke-width="3"/>
+  <g fill="#F1F4F7" stroke="#DCE3EA" stroke-width="2"><rect x="146" y="50" width="108" height="56" rx="8"/><rect x="146" y="116" width="108" height="56" rx="8"/><rect x="146" y="182" width="108" height="56" rx="8"/></g>
+  <rect x="186" y="66" width="28" height="24" rx="3" fill="none" stroke="#0E3B6E" stroke-width="3"/><rect x="194" y="61" width="12" height="5" fill="#0E3B6E"/>
+  <rect x="190" y="78" width="20" height="9" fill="#5DB33A"/><rect x="190" y="70" width="20" height="6" fill="#A6D86B"/>
+  <g fill="#5DB33A"><rect x="160" y="140" width="16" height="8" rx="2"/><rect x="180" y="140" width="16" height="8" rx="2"/><rect x="200" y="140" width="16" height="8" rx="2"/><rect x="220" y="140" width="16" height="8" rx="2" fill="#C9D3DD"/></g>
+  <text x="200" y="216" font-family="Figtree, Arial, sans-serif" font-size="14" font-weight="700" fill="#0E3B6E" text-anchor="middle">5 kWh</text>
+  <path d="M60 140h50M290 140h50" stroke="#5DB33A" stroke-width="4" stroke-dasharray="8 6" stroke-linecap="round"/>
+</svg>
