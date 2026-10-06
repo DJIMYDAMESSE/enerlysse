@@ -86,17 +86,20 @@
     </div>
     <div>
       <!-- VIDÉO DE PRÉSENTATION ENERLYSSE
-           Déposez votre fichier dans assets/video/enerlysse-presentation.mp4
-           (ou remplacez ce bloc par un <iframe> YouTube / Vimeo). -->
-      <div class="video-frame">
+           Option 1 : déposez le fichier dans assets/video/ sous le nom enerlysse-presentation.mp4
+           Option 2 (vidéo YouTube) : collez l'identifiant YouTube dans data-youtube ci-dessous,
+           par ex. data-youtube="dQw4w9WgXcQ" pour https://www.youtube.com/watch?v=dQw4w9WgXcQ
+           Tant qu'aucune vidéo n'est trouvée, une photo s'affiche à la place. -->
+      <div class="video-frame" data-youtube="https://www.youtube.com/watch?v=qQwC8kGLUNQ">
         <video controls preload="metadata" poster="assets/img/batiment.jpg" playsinline>
           <source src="assets/video/enerlysse-presentation.mp4" type="video/mp4">
+          <source src="assets/video/enerlysse-presentation.MP4" type="video/mp4">
+          <source src="assets/video/enerlysse-presentation.webm" type="video/webm">
         </video>
         <div class="video-fallback">
           <div>
-            <div class="play"><svg viewBox="0 0 24 24" fill="#fff" aria-hidden="true"><path d="M6 4l14 8-14 8z"/></svg></div>
-            <p>Découvrez Enerlysse en vidéo</p>
-            <small>Présentation de nos solutions et de notre démarche</small>
+            <p>Enerlysse, votre partenaire énergie en Île-de-France</p>
+            <small>Pompes à chaleur, climatisation, photovoltaïque et déstratification</small>
           </div>
         </div>
       </div>

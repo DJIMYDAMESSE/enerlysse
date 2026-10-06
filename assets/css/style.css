@@ -473,3 +473,6 @@ html, body { overflow-x: clip; }
 @media (max-width: 1100px) { .types.four { grid-template-columns: repeat(2, 1fr); } }
 @media (max-width: 600px) { .types.four { grid-template-columns: 1fr; } }
 .section-sky .aid { background: #fff; }
+.video-frame iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+.video-fallback { align-items: end; justify-items: start; text-align: left; padding: 1.5rem 1.6rem; background: linear-gradient(0deg, rgba(10,42,80,.85) 0%, rgba(10,42,80,.1) 60%), url("../img/batiment.jpg") center / cover; }
+.video-fallback p { font-size: 1.15rem; }

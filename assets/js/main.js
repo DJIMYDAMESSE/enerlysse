@@ -44,13 +44,32 @@
     }
   });
 
-  /* ---------- Vidéo de présentation : affichage de secours si le fichier est absent ---------- */
+  /* ---------- Vidéo de présentation ----------
+     1) data-youtube="IDENTIFIANT" sur .video-frame : lecteur YouTube
+     2) sinon : fichier dans assets/video/
+     3) sinon : photo de remplacement (sans faux bouton lecture) */
   document.querySelectorAll(".video-frame").forEach(function (frame) {
+    var yt = (frame.getAttribute("data-youtube") || "").trim();
     var video = frame.querySelector("video");
+    if (yt) {
+      var m = yt.match(/(?:v=|youtu\.be\/|embed\/|shorts\/)([\w-]{11})/);
+      var id = m ? m[1] : yt;
+      var iframe = document.createElement("iframe");
+      iframe.src = "https://www.youtube-nocookie.com/embed/" + id + "?rel=0";
+      iframe.title = "Vidéo de présentation Enerlysse";
+      iframe.allow = "accelerometer; encrypted-media; gyroscope; picture-in-picture; fullscreen";
+      iframe.allowFullscreen = true;
+      iframe.loading = "lazy";
+      if (video) video.remove();
+      var fb = frame.querySelector(".video-fallback");
+      if (fb) fb.remove();
+      frame.appendChild(iframe);
+      return;
+    }
     if (!video) return;
-    var source = video.querySelector("source");
+    var sources = video.querySelectorAll("source");
     var fail = function () { frame.classList.add("no-video"); };
-    if (source) source.addEventListener("error", fail);
+    if (sources.length) sources[sources.length - 1].addEventListener("error", fail);
     video.addEventListener("error", fail);
     if (video.networkState === 3) fail(); // NETWORK_NO_SOURCE
   });
