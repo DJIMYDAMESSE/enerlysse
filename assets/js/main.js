@@ -60,6 +60,7 @@
       iframe.allow = "accelerometer; encrypted-media; gyroscope; picture-in-picture; fullscreen";
       iframe.allowFullscreen = true;
       iframe.loading = "lazy";
+      iframe.referrerPolicy = "strict-origin-when-cross-origin";
       if (video) video.remove();
       var fb = frame.querySelector(".video-fallback");
       if (fb) fb.remove();
