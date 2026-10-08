@@ -47,8 +47,9 @@ assets/video/            Vidéo de présentation à déposer
 4. **Formulaire** : créer un formulaire gratuit sur formspree.io et remplacer `VOTRE_ID` dans `contact.html`. Sans cela, le formulaire ouvre la messagerie du visiteur.
 5. **Déstratification** : les cartes « Pour quels bâtiments ? » utilisent des icônes (immeuble, clé, maison) dessinées directement dans `destratification.html`.
 6. **Climatisation (cassette, gainable)** : les photos sont chargées depuis es-chauffage.fr (`clim-cassette.jpg`, `clim-gainable3_resultat_1.jpg`). Pour ne plus dépendre de ce site, enregistrez-les dans `assets/img/` sous `climatisation-cassette.jpg` et `climatisation-gainable.jpg`, puis remettez ces chemins dans `climatisation.html`. Si le site est indisponible, le dessin `.svg` s'affiche.
-7. **Photos** : les images actuelles sont extraites de la plaquette (basse résolution). Remplacez-les par des photos HD de vos chantiers en gardant les mêmes noms de fichiers.
-8. **Réalisations** : remplacer les exemples par vos vrais chantiers (photo, titre, lieu).
+7. **Page d'accueil** : les 3 photos (maison solaire, pompe à chaleur, Paris) sont des photos libres de droits Unsplash (licence Unsplash : usage commercial gratuit, sans attribution obligatoire), chargées depuis images.unsplash.com. Si Unsplash est indisponible, la photo locale d'origine s'affiche.
+8. **Photos** : les images actuelles sont extraites de la plaquette (basse résolution). Remplacez-les par des photos HD de vos chantiers en gardant les mêmes noms de fichiers.
+9. **Réalisations** : remplacer les exemples par vos vrais chantiers (photo, titre, lieu).
 7. **Horaires** du téléphone sur la page Contact.
 
 ## Modifier les couleurs
