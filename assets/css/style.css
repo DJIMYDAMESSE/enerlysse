@@ -514,3 +514,9 @@ html, body { overflow-x: clip; }
 /* Mobile : le bouton menu doit rester visible */
 @media (max-width: 520px) { .site-header .header-inner { width: calc(100% - 1.5rem); gap: .5rem; } .site-header .brand-name { font-size: 1.55rem; } .site-header .brand img { width: 40px; height: 40px; } .site-header .brand { gap: .35rem; } .site-header .header-rge { padding-left: .4rem; gap: .25rem; } .site-header .header-rge img { height: 26px; } }
 @media (max-width: 380px) { .site-header .brand-name { font-size: 1.3rem; } .site-header .brand img { width: 34px; height: 34px; } .site-header .header-rge img { height: 22px; } }
+
+/* ---------- ENERLYSSE en très grand dans le bandeau d'accueil ---------- */
+.hero-brand { margin: 0 0 1.2rem; font-size: clamp(3.2rem, 7.2vw, 6.6rem); font-weight: 800; line-height: .95; letter-spacing: .02em; color: #fff; }
+.hero-brand span { color: var(--green); }
+.hero .hero-brand + h1 { font-size: clamp(1.6rem, 2.6vw, 2.4rem); max-width: 22ch; }
+@media (max-width: 520px) { .hero-brand { font-size: clamp(2.6rem, 14vw, 3.6rem); margin-bottom: .8rem; } }
