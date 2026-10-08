@@ -14,27 +14,34 @@
   }
 
   /* ---------- Sous-menu "Expertises" ---------- */
+  var desktop = window.matchMedia("(min-width: 1181px) and (hover: hover)");
+  function setOpen(item, open) {
+    item.classList.toggle("open", open);
+    item.querySelector("button").setAttribute("aria-expanded", open ? "true" : "false");
+  }
   document.querySelectorAll(".has-sub > button").forEach(function (btn) {
     var item = btn.parentElement;
+    var closeTimer = null;
     btn.addEventListener("click", function (e) {
       e.stopPropagation();
-      var open = item.classList.toggle("open");
-      btn.setAttribute("aria-expanded", open ? "true" : "false");
+      // Sur ordinateur, le survol ouvre déjà le menu : un clic le laisse ouvert
+      if (desktop.matches) { setOpen(item, true); return; }
+      setOpen(item, !item.classList.contains("open"));
     });
-    // Survol sur ordinateur
+    // Survol sur ordinateur (petit délai avant fermeture pour atteindre les liens)
     item.addEventListener("mouseenter", function () {
-      if (window.matchMedia("(min-width: 1181px)").matches) { item.classList.add("open"); btn.setAttribute("aria-expanded", "true"); }
+      if (!desktop.matches) return;
+      clearTimeout(closeTimer);
+      setOpen(item, true);
     });
     item.addEventListener("mouseleave", function () {
-      if (window.matchMedia("(min-width: 1181px)").matches) { item.classList.remove("open"); btn.setAttribute("aria-expanded", "false"); }
+      if (!desktop.matches) return;
+      closeTimer = setTimeout(function () { setOpen(item, false); }, 250);
     });
   });
   document.addEventListener("click", function () {
-    if (window.matchMedia("(min-width: 1181px)").matches) {
-      document.querySelectorAll(".has-sub.open").forEach(function (el) {
-        el.classList.remove("open");
-        el.querySelector("button").setAttribute("aria-expanded", "false");
-      });
+    if (desktop.matches) {
+      document.querySelectorAll(".has-sub.open").forEach(function (el) { setOpen(el, false); });
     }
   });
   document.addEventListener("keydown", function (e) {
