@@ -484,3 +484,33 @@ html, body { overflow-x: clip; }
 .video-frame iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
 .video-fallback { align-items: end; justify-items: start; text-align: left; padding: 1.5rem 1.6rem; background: linear-gradient(0deg, rgba(10,42,80,.85) 0%, rgba(10,42,80,.1) 60%), url("../img/batiment.jpg") center / cover; }
 .video-fallback p { font-size: 1.15rem; }
+
+/* ---------- Nom ENERLYSSE en grand dans l'en-tête ---------- */
+:root { --header-h: 104px; }
+.site-header .brand { gap: .75rem; }
+.site-header .brand img { width: 64px; height: 64px; }
+.site-header .brand-name { font-size: 2.4rem; letter-spacing: .02em; }
+@media (max-width: 1320px) { .site-header .brand-name { font-size: 2.1rem; } .site-header .brand img { width: 56px; height: 56px; } }
+@media (max-width: 1180px) { :root { --header-h: 92px; } .site-header .brand-name { font-size: 2.2rem; } }
+@media (max-width: 520px) { :root { --header-h: 76px; } .site-header .brand-name { font-size: 1.6rem; } .site-header .brand img { width: 42px; height: 42px; } .site-header .brand { gap: .45rem; } }
+@media (max-width: 380px) { .site-header .brand-name { font-size: 1.35rem; } .site-header .brand img { width: 36px; height: 36px; } }
+
+/* ---------- ENERLYSSE encore plus grand ---------- */
+:root { --header-h: 124px; }
+.site-header .brand img { width: 84px; height: 84px; }
+.site-header .brand-name { font-size: 3.2rem; }
+@media (max-width: 1440px) { .site-header .brand-name { font-size: 2.8rem; } .site-header .brand img { width: 74px; height: 74px; } .header-rge-label { display: none; } }
+@media (max-width: 1320px) { .site-header .brand-name { font-size: 2.5rem; } .site-header .brand img { width: 66px; height: 66px; } }
+@media (max-width: 1180px) { :root { --header-h: 104px; } .site-header .brand-name { font-size: 2.8rem; } .site-header .brand img { width: 70px; height: 70px; } }
+@media (max-width: 520px) { :root { --header-h: 84px; } .site-header .brand-name { font-size: 1.9rem; } .site-header .brand img { width: 48px; height: 48px; } .site-header .header-rge img { height: 30px; } }
+@media (max-width: 380px) { .site-header .brand-name { font-size: 1.6rem; } .site-header .brand img { width: 40px; height: 40px; } .site-header .header-rge img { height: 26px; } }
+/* En-tête plus large pour loger le grand nom sans rien couper */
+.site-header .header-inner { width: min(100% - 2.5rem, 1760px); gap: 1.2rem; }
+@media (max-width: 1800px) { .header-phone { display: none; } }
+@media (max-width: 1600px) { .site-header .main-nav a, .site-header .main-nav button { padding: .6rem .6rem; } }
+@media (max-width: 1440px) and (min-width: 1181px) { .site-header .header-rge img { height: 34px; } .site-header .header-rge { padding-left: .7rem; } }
+@media (max-width: 1366px) and (min-width: 1181px) { .site-header .brand-name { font-size: 2.2rem; } .site-header .brand img { width: 60px; height: 60px; } .site-header .main-nav a, .site-header .main-nav button { padding: .55rem .45rem; font-size: .95rem; } .site-header .header-inner { width: calc(100% - 2rem); gap: .8rem; } }
+@media (max-width: 1260px) and (min-width: 1181px) { .site-header .brand-name { font-size: 1.95rem; } .site-header .brand img { width: 52px; height: 52px; } .site-header .header-rge img { height: 30px; } }
+/* Mobile : le bouton menu doit rester visible */
+@media (max-width: 520px) { .site-header .header-inner { width: calc(100% - 1.5rem); gap: .5rem; } .site-header .brand-name { font-size: 1.55rem; } .site-header .brand img { width: 40px; height: 40px; } .site-header .brand { gap: .35rem; } .site-header .header-rge { padding-left: .4rem; gap: .25rem; } .site-header .header-rge img { height: 26px; } }
+@media (max-width: 380px) { .site-header .brand-name { font-size: 1.3rem; } .site-header .brand img { width: 34px; height: 34px; } .site-header .header-rge img { height: 22px; } }
