@@ -12,8 +12,8 @@ climatisation.html       Expertise : climatisation (murale, cassette, gainable)
 photovoltaique.html      Expertise : photovoltaïque, autoconsommation, batterie
 destratification.html    Expertise : déstratification de l'air
 cee-aides.html           Expertise : CEE & aides financières
-qualipac.html            Onglet QualiPAC (partenaire AD CLIM ET CHAUFFAGE, QPAC/74283)
-qualipv.html             Onglet QualiPV (partenaire POLY'TECH, QPV/56852)
+qualipac.html            Onglet QualiPAC (partenaire RGE QualiPAC)
+qualipv.html             Onglet QualiPV (partenaire RGE QualiPV)
 realisations.html        Réalisations avec filtres
 contact.html             Coordonnées, formulaire, plan
 mentions-legales.html    Mentions légales et RGPD
