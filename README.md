@@ -45,8 +45,10 @@ assets/video/            Vidéo de présentation à déposer
 2. **Certificats RGE des partenaires** : chaque année, mettre à jour les dates de validité dans `qualipac.html` et `qualipv.html` (certificats de 12 mois). Retirer un logo si le partenaire n'est plus certifié ou si le partenariat s'arrête.
 3. **Mentions légales** : SIRET, forme juridique, assurance (champs entre crochets). Hébergeur : GitHub Inc., 88 Colin P Kelly Jr St, San Francisco, CA 94107, États-Unis.
 4. **Formulaire** : créer un formulaire gratuit sur formspree.io et remplacer `VOTRE_ID` dans `contact.html`. Sans cela, le formulaire ouvre la messagerie du visiteur.
-5. **Photos** : les images actuelles sont extraites de la plaquette (basse résolution). Remplacez-les par des photos HD de vos chantiers en gardant les mêmes noms de fichiers.
-6. **Réalisations** : remplacer les exemples par vos vrais chantiers (photo, titre, lieu).
+5. **Déstratification** : les cartes « Pour quels bâtiments ? » utilisent des icônes (immeuble, clé, maison) dessinées directement dans `destratification.html`.
+6. **Climatisation (cassette, gainable)** : les photos sont chargées depuis es-chauffage.fr (`clim-cassette.jpg`, `clim-gainable3_resultat_1.jpg`). Pour ne plus dépendre de ce site, enregistrez-les dans `assets/img/` sous `climatisation-cassette.jpg` et `climatisation-gainable.jpg`, puis remettez ces chemins dans `climatisation.html`. Si le site est indisponible, le dessin `.svg` s'affiche.
+7. **Photos** : les images actuelles sont extraites de la plaquette (basse résolution). Remplacez-les par des photos HD de vos chantiers en gardant les mêmes noms de fichiers.
+8. **Réalisations** : remplacer les exemples par vos vrais chantiers (photo, titre, lieu).
 7. **Horaires** du téléphone sur la page Contact.
 
 ## Modifier les couleurs
