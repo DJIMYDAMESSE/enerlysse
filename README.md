@@ -43,7 +43,7 @@ assets/video/            Vidéo de présentation à déposer
 
 1. **Vidéo** : déposer `assets/video/enerlysse-presentation.mp4` (ou remplacer le bloc par un iframe YouTube dans `index.html`).
 2. **Certificats RGE des partenaires** : chaque année, mettre à jour les dates de validité dans `qualipac.html` et `qualipv.html` (certificats de 12 mois). Retirer un logo si le partenaire n'est plus certifié ou si le partenariat s'arrête.
-3. **Mentions légales** : SIRET, forme juridique, assurance (champs entre crochets). Hébergeur : GitHub Inc., 88 Colin P Kelly Jr St, San Francisco, CA 94107, États-Unis.
+3. **Mentions légales** : ENERLYSSE SAS au capital de 1 000 €, RCS Paris 131 371 072 (immatriculée le 12/10/2026), EUID FR7501.131371072. Reste à ajouter : n° de TVA intracommunautaire et assurance. Hébergeur : GitHub Inc., 88 Colin P Kelly Jr St, San Francisco, CA 94107, États-Unis.
 4. **Formulaire** : créer un formulaire gratuit sur formspree.io et remplacer `VOTRE_ID` dans `contact.html`. Sans cela, le formulaire ouvre la messagerie du visiteur.
 5. **Déstratification** : les cartes « Pour quels bâtiments ? » utilisent des icônes (immeuble, clé, maison) dessinées directement dans `destratification.html`.
 6. **Climatisation (cassette, gainable)** : les photos sont chargées depuis es-chauffage.fr (`clim-cassette.jpg`, `clim-gainable3_resultat_1.jpg`). Pour ne plus dépendre de ce site, enregistrez-les dans `assets/img/` sous `climatisation-cassette.jpg` et `climatisation-gainable.jpg`, puis remettez ces chemins dans `climatisation.html`. Si le site est indisponible, le dessin `.svg` s'affiche.
